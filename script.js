@@ -681,214 +681,151 @@
         description:"An extravagant working of blush rose",
         category:"luxury"
     },
-    
-
-
-
-    
-
-
-
     {
         id: 92,
-        name: "Petite Pink Rose Bouquet",
+        name: "Single Sunflower delight",
         price: 450,
-        image: "assets/budget-1.webp",
-        description: "An affordable and beautiful petite pink rose bouquet crafted for special moments.",
+        image: "assets/sunflower.webp",
+        description: "A handcrafted bouquet made with love & meaning",
         category: "budget-friendly"
     },
     {
         id: 93,
-        name: "Simple Yellow Lily Wrap",
+        name: "Mini spidey bouqet ",
         price: 350,
-        image: "assets/budget-2.webp",
-        description: "An affordable and beautiful simple yellow lily wrap crafted for special moments.",
+        image: "assets/spideys.webp",
+        description: "An affordable bouquet that tells your story.",
         category: "budget-friendly"
     },
     {
         id: 94,
-        name: "Mini Daisy Delight",
+        name: "Forever rose bouqet",
         price: 400,
-        image: "assets/budget-3.webp",
-        description: "An affordable and beautiful mini daisy delight crafted for special moments.",
+        image: "assets/roseeter.webp",
+        description: "Thoughtful gift for special moments.",
         category: "budget-friendly"
     },
     {
         id: 95,
-        name: "Sweet Blossom Mix",
+        name: "Pink Rose paper bouquet",
         price: 500,
-        image: "assets/budget-4.webp",
-        description: "An affordable and beautiful sweet blossom mix crafted for special moments.",
+        image: "assets/ribbonr.webp",
+        description: "Elegant handcrafted paper roses with butterfly accent.",
         category: "budget-friendly"
     },
     {
         id: 96,
-        name: "Pocket-friendly Peonies",
+        name: "Little Racer Surprise",
         price: 600,
-        image: "assets/budget-5.webp",
-        description: "An affordable and beautiful pocket-friendly peonies crafted for special moments.",
+        image: "assets/teddywheel.webp",
+        description: "Cute teddy with Hot Wheels and blue roses.",
         category: "budget-friendly"
     },
     {
         id: 97,
-        name: "Little Lavender Charm",
+        name: "Sweet Pastel Bloom",
         price: 450,
-        image: "assets/budget-6.webp",
-        description: "An affordable and beautiful little lavender charm crafted for special moments.",
+        image: "assets/minipink.webp",
+        description: "Soft handmade flowers in charming colors.",
         category: "budget-friendly"
     },
     {
         id: 98,
-        name: "Crisp White Carnations",
+        name: "Yellow tulip delight",
         price: 350,
-        image: "assets/budget-7.webp",
-        description: "An affordable and beautiful crisp white carnations crafted for special moments.",
+        image: "assets/tulip.webp",
+        description: "Fresh yellow tulips for special moments.",
         category: "budget-friendly"
     },
     {
         id: 99,
-        name: "Sunny Sunflower Mini",
+        name: "Naruto Love Bundle",
         price: 550,
-        image: "assets/budget-8.webp",
-        description: "An affordable and beautiful sunny sunflower mini crafted for special moments.",
+        image: "assets/naruto.webp",
+        description: "Fan-favorite plushies with floral styling..",
         category: "budget-friendly"
     },
     {
         id: 100,
-        name: "Vibrant Tulip Trio",
+        name: "Rosy Chocolate Deligh",
         price: 500,
-        image: "assets/budget-9.webp",
-        description: "An affordable and beautiful vibrant tulip trio crafted for special moments.",
+        image: "assets/pinkrose.webp",
+        description: "Fresh pink roses paired with premium chocolates.",
         category: "budget-friendly"
     },
     {
         id: 101,
-        name: "Cozy Cotton Flower Wrap",
+        name: "Lavender Whisper",
         price: 400,
-        image: "assets/budget-10.webp",
-        description: "An affordable and beautiful cozy cotton flower wrap crafted for special moments.",
+        image: "assets/purple.webp",
+        description: "Single handcrafted rose with elegant wrap.",
         category: "budget-friendly"
     },
     {
         id: 102,
-        name: "Gentle Baby Breath Bundle",
+        name: "Power Bloom",
         price: 300,
-        image: "assets/budget-11.webp",
-        description: "An affordable and beautiful gentle baby breath bundle crafted for special moments.",
+        image: "assets/ybutter.webp",
+        description: "Iconic anime figure with bold rose design.",
         category: "budget-friendly"
     },
     {
         id: 103,
-        name: "Blushing Rose Budget Box",
+        name: "Speed & Sweetness",
         price: 600,
-        image: "assets/budget-12.webp",
-        description: "An affordable and beautiful blushing rose budget box crafted for special moments.",
+        image: "assets/HOT.webp",
+        description: "Hot Wheels toy with chocolates and blue roses.",
         category: "budget-friendly"
     },
     {
         id: 104,
-        name: "Happy Gerbera Mix",
+        name: "Saiyan Bloom",
         price: 450,
-        image: "assets/budget-13.webp",
-        description: "An affordable and beautiful happy gerbera mix crafted for special moments.",
+        image: "assets/goku.webp",
+        description: "Bouquet inspired from our sayan kakarot.",
         category: "budget-friendly"
     },
     {
         id: 105,
-        name: "Mini Aster Arrangement",
+        name: "Crochet Rose Bouquet",
         price: 350,
-        image: "assets/budget-14.webp",
-        description: "An affordable and beautiful mini aster arrangement crafted for special moments.",
+        image: "assets/cloth.webp",
+        description: "Handcrafted crochet roses with premium wrap.",
         category: "budget-friendly"
     },
     {
         id: 106,
-        name: "Modest Orchid Stem",
+        name: "Basket of Love",
         price: 500,
-        image: "assets/budget-15.webp",
-        description: "An affordable and beautiful modest orchid stem crafted for special moments.",
+        image: "assets/basket.webp",
+        description: "Fresh red roses in a classic wicker basket.",
         category: "budget-friendly"
     },
     {
         id: 107,
-        name: "Joyful Mixed Buds",
+        name: "Royal Love Mix",
         price: 400,
-        image: "assets/budget-16.webp",
-        description: "An affordable and beautiful joyful mixed buds crafted for special moments.",
+        image: "assets/yrrose.webp",
+        description: "Vibrant roses wrapped with festive elegance.",
         category: "budget-friendly"
     },
     {
         id: 108,
-        name: "Rustic Dried Flower Mini",
+        name: "Rustic Red Rose Bouquet",
         price: 350,
-        image: "assets/budget-17.webp",
-        description: "An affordable and beautiful rustic dried flower mini crafted for special moments.",
+        image: "assets/abc.webp",
+        description: "Dried red roses wrapped in earthy charm.",
         category: "budget-friendly"
     },
     {
         id: 109,
-        name: "Classic Red Rose Single",
+        name: "Yellow Single Rose Bouquet",
         price: 300,
-        image: "assets/budget-18.webp",
-        description: "An affordable and beautiful classic red rose single crafted for special moments.",
+        image: "assets/smallrose.webp",
+        description: "Single yellow rose in premium black wrap.",
         category: "budget-friendly"
     },
-    {
-        id: 110,
-        name: "Morning Dew Daisies",
-        price: 450,
-        image: "assets/budget-19.webp",
-        description: "An affordable and beautiful morning dew daisies crafted for special moments.",
-        category: "budget-friendly"
-    },
-    {
-        id: 111,
-        name: "Lilac Dream Bouquet",
-        price: 600,
-        image: "assets/budget-20.webp",
-        description: "An affordable and beautiful lilac dream bouquet crafted for special moments.",
-        category: "budget-friendly"
-    },
-    {
-        id: 112,
-        name: "Autumn Hue Mini Wrap",
-        price: 550,
-        image: "assets/budget-21.webp",
-        description: "An affordable and beautiful autumn hue mini wrap crafted for special moments.",
-        category: "budget-friendly"
-    },
-    {
-        id: 113,
-        name: "Spring Bud Delight",
-        price: 400,
-        image: "assets/budget-22.webp",
-        description: "An affordable and beautiful spring bud delight crafted for special moments.",
-        category: "budget-friendly"
-    },
-    {
-        id: 114,
-        name: "Charming Chrysanthemums",
-        price: 450,
-        image: "assets/budget-23.webp",
-        description: "An affordable and beautiful charming chrysanthemums crafted for special moments.",
-        category: "budget-friendly"
-    },
-    {
-        id: 115,
-        name: "Sweet Succulent Gift",
-        price: 350,
-        image: "assets/budget-24.webp",
-        description: "An affordable and beautiful sweet succulent gift crafted for special moments.",
-        category: "budget-friendly"
-    },
-    {
-        id: 116,
-        name: "Budget Bloom Special",
-        price: 500,
-        image: "assets/budget-25.webp",
-        description: "An affordable and beautiful budget bloom special crafted for special moments.",
-        category: "budget-friendly"
-    }
+   
 ];
 
 
