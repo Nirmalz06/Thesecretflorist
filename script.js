@@ -596,10 +596,10 @@
     {
         id:81,
         name:"Royal Red Anniversary Bouquet",
-        price:500,
+        price:3500,
         image:"assets/anniversary.webp",
         description:"A luxurious heart of premium red roses crowned with elegance — crafted to celebrate timeless love.",
-        category:"luxury"
+        category:["luxury","anniversary","wedding"]
     },
     {
         id:82,
@@ -607,7 +607,7 @@
         price:500,
         image:"assets/cake.webp",
         description:"A stunning gradient of red, pink, and white roses arranged in a luxury round box.",
-        category:"luxury"
+        category:["luxury","romantic","wedding"]
     },
     {
         id:83,
@@ -615,15 +615,15 @@
         price:500,
         image:"assets/custom.webp",
         description:"Deep red roses wrapped in elegance",
-        category:"luxury"
+        category:["luxury","birthday"]
     },
     {
         id:84,
         name:"Golden Heart Delight",
-        price:500,
+        price:3000,
         image:"assets/chocorose.webp",
         description:"Premium red roses surrounding a heart of Ferrero delights",
-        category:"luxury"
+        category:["luxury","romantic"]
     },
     {
         id:85,
@@ -644,7 +644,7 @@
     {
         id:87,
         name:"Heart Within Heart",
-        price:500,
+        price:2800,
         image:"assets/yrose.webp",
         description:"A bold sea of red roses embracing a white heart — designed to say “You are my everything.”",
         category:"luxury"
@@ -652,23 +652,23 @@
     {
         id:88,
         name:"Blushing Grace",
-        price:500,
+        price:3500,
         image:"assets/pinkr.webp",
         description:"Delicate pink roses wrapped in pastel elegance",
-        category:"luxury"
+        category:["luxury","romantic"]
     },
     {
         id:89,
         name:"Crimson Celebration Wrap",
-        price:500,
+        price:2500,
         image:"assets/brose.webp",
         description:"A dramatic black wrap filled with premium red roses",
-        category:"luxury"
+        category:["luxury","birthday"]
     },
     {
         id:90,
         name:"The Grand Passion Dome",
-        price:500,
+        price:4000,
         image:"assets/arab.webp",
         description:"An extravagant dome of handpicked red roses",
         category:"luxury"
@@ -676,7 +676,7 @@
     {
         id:91,
         name:"Blush pink delight",
-        price:500,
+        price:3000,
         image:"assets/pink.webp",
         description:"An extravagant working of blush rose",
         category:"luxury"
@@ -716,10 +716,10 @@
     {
         id: 96,
         name: "Little Racer Surprise",
-        price: 600,
+        price: 500,
         image: "assets/teddywheel.webp",
         description: "Cute teddy with Hot Wheels and blue roses.",
-        category: "budget-friendly"
+        category: ["budget-friendly","hot-wheels"]
     },
     {
         id: 97,
@@ -740,7 +740,7 @@
     {
         id: 99,
         name: "Naruto Love Bundle",
-        price: 550,
+        price: 500,
         image: "assets/naruto.webp",
         description: "Fan-favorite plushies with floral styling..",
         category: "budget-friendly"
@@ -772,10 +772,10 @@
     {
         id: 103,
         name: "Speed & Sweetness",
-        price: 600,
+        price: 500,
         image: "assets/HOT.webp",
         description: "Hot Wheels toy with chocolates and blue roses.",
-        category: "budget-friendly"
+        category: ["budget-friendly","hot-wheels"]
     },
     {
         id: 104,
