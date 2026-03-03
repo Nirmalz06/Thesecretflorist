@@ -628,7 +628,7 @@
     {
         id:85,
         name:"Pastel Garden Symphony",
-        price:500,
+        price:2500,
         image:"assets/enchant.webp",
         description:"A vibrant harmony of roses and seasonal blooms",
         category:"luxury"
@@ -636,7 +636,7 @@
     {
         id:86,
         name:"Midnight Glow Elegance",
-        price:500,
+        price:4500,
         image:"assets/lflow.webp",
         description:"Soft ivory roses wrapped in black luxury paper and illuminated with warm fairy lights",
         category:"luxury"
@@ -644,7 +644,7 @@
     {
         id:87,
         name:"Heart Within Heart",
-        price:2800,
+        price:4800,
         image:"assets/yrose.webp",
         description:"A bold sea of red roses embracing a white heart — designed to say “You are my everything.”",
         category:"luxury"
