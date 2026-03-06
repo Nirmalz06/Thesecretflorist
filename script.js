@@ -39,7 +39,7 @@
         price: 1800,
         image: "assets/6.webp",
         description: "A refreshing mix of white blooms and buds arranged for natural elegance.",
-        category: "elegant"
+        category: "customized"
     },
     {
         id: 7,
@@ -47,7 +47,7 @@
         price: 2800,
         image: "assets/7.webp",
         description: "Hand-wrapped red roses crafted to mark unforgettable moments of love..",
-        category: ["elegant", "romantic"]
+        category:"wedding"
 
     },
     {
@@ -98,7 +98,7 @@
         price: 1500,
         image: "assets/fourteen.webp",
         description: "Elegant blue and white blooms styled with gourmet treats in a rustic box.",
-        category: "romantic"
+        category: "birthday"
     },
     {
         id: 15,
@@ -131,7 +131,7 @@
         price: 1000,
         image: "assets/nineteen.webp",
         description: "A personalized photo bouquet woven with fresh florals to celebrate cherished moments..",
-        category: ["polaroids-bouquet", "romantic"]
+        category: ["polaroids-bouquet", "birthday"]
     },
    
     {
@@ -148,7 +148,7 @@
         price: 1200,
         image: "assets/22.webp",
         description: "Classic red roses wrapped in elegant black for a bold, timeless expression of love.",
-        category: "elegant"
+        category: ["birthday","wedding"]
     },
     {
         id: 23,
@@ -172,7 +172,7 @@
         price: 1699,
         image: "assets/25.webp",
         description: "Soft pink and white tulips wrapped in elegance for a gentle, graceful gesture..",
-        category: ["elegant" ,"wedding"]    
+        category: ["birthday" ,"wedding"]    
     },
     {
         id: 26,
@@ -212,7 +212,7 @@
         price: 2200,
         image: "assets/30.webp",
         description: "A charming pink-themed gift bouquet with beauty treats and floral accents..",
-        category: "romantic"
+        category: "birthday"
     },
     {
         id:31,
@@ -351,7 +351,7 @@
         price:7000,
         image:"assets/wine.webp",
         description:"A premium floral arrangement blending elegant roses,and wine to create a memorable experience.",
-        category: ["Elegant", "Luxury","customized"]
+        category: ["birthday", "luxury","customized"]
     },
     {
         id:51,
@@ -383,7 +383,7 @@
         price:100,
         image:"assets/rose.webp",
         description:"A bouquet made by a single rose",
-        category:"Budget-friendly"
+        category:"budget-friendly"
     },
     {
         id:55,
@@ -391,7 +391,7 @@
         price:900,
         image:"assets/bat.webp",
         description:"A bouqet of a single batman",
-        category:["Hot-wheels","budget-friendly"]
+        category:["hot-wheels","budget-friendly"]
     },
     {
         id:56,
@@ -399,7 +399,7 @@
         price:500,
         image:"assets/sun.webp",
         description:"A radiant sunflower bouquet , perfect for spreading warmth and happiness.",
-        category:["budget-friendly","Elegant" ]
+        category:"budget-friendly"
     },
     {
         id:57,
@@ -407,7 +407,7 @@
         price:500,
         image:"assets/violet.webp",
         description:"A romantic blend of deep red roses and soft violet blooms, crafted for heartfelt moments .",
-        category:["budget-friendly","Elegant"]
+        category:["budget-friendly","customized"]
     },
     {
         id:58,
@@ -607,7 +607,7 @@
         price:500,
         image:"assets/cake.webp",
         description:"A stunning gradient of red, pink, and white roses arranged in a luxury round box.",
-        category:["luxury","romantic","wedding"]
+        category:["luxury","birthday","wedding"]
     },
     {
         id:83,
@@ -623,7 +623,7 @@
         price:3000,
         image:"assets/chocorose.webp",
         description:"Premium red roses surrounding a heart of Ferrero delights",
-        category:["luxury","romantic"]
+        category:["luxury","birthday"]
     },
     {
         id:85,
@@ -655,7 +655,7 @@
         price:3500,
         image:"assets/pinkr.webp",
         description:"Delicate pink roses wrapped in pastel elegance",
-        category:["luxury","romantic"]
+        category:["luxury","birthday","wedding"]
     },
     {
         id:89,
@@ -831,7 +831,7 @@
         price: 4500,
         image: "assets/perfume.webp",
         description: "Beautiful blooms paired with luxury fragrances, creating the perfect gift for any special moment.",
-        category: "Perfume bouquet"
+        category: "perfume-bouquet"
     }
    
 ];
