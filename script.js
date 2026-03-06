@@ -825,6 +825,14 @@
         description: "Single yellow rose in premium black wrap.",
         category: "budget-friendly"
     },
+    {
+        id: 110,
+        name: "Perfume Surprise Bouquet",
+        price: 4500,
+        image: "assets/perfume.webp",
+        description: "Beautiful blooms paired with luxury fragrances, creating the perfect gift for any special moment.",
+        category: "Perfume bouquet"
+    }
    
 ];
 
