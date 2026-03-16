@@ -971,7 +971,55 @@ const products = [
         image:"assets/hotwheels/hot11.webp",
         description:"A grand bouquet of 100 artificial roses, crafted for everlasting beauty and unforgettable moments.",
         category:["hot wheels"]
-    }
+    },
+    {
+        id:131,
+        name:"Money bouquet with 100rs note",
+        price:2800,
+        image:"assets/100rsblue.jpeg",
+        description:"A money bouquet made up of 100rs notes",
+        category:["money bouquet"]
+    },
+    {
+        id:132,
+        name:"All chocolates bouquet",
+        price:3500,
+        image:"assets/allcho2.jpeg",
+        description:"All chocolates with love",
+        category:["chocolate bouquet", "birthday"]
+    },
+    {
+        id:133,
+        name:"All chocolates bouquet",
+        price:2800,
+        image:"assets/allchocolate.jpeg",
+        description:"All chocolates with love",
+        category:["chocolate bouquet", "birthday"]
+    },
+    {
+        id:134,
+        name:"Lotte choco pie bouquet",
+        price:2000,
+        image:"assets/choco_pie.jpeg",
+        description:"Soft and delicious choco pie bouquet",
+        category:["chocolate bouquet", "birthday"]
+    },
+    {
+        id:135,
+        name:"Kitkat & silk bouquet",
+        price:3000,
+        image:"assets/kitkat&silk.jpeg",
+        description:"A bouquet of kitkat and silk chocolates",
+        category:["chocolate bouquet", "birthday"]
+    },
+    {
+        id:136,
+        name:"Simple dairy milk bouquet",
+        price:250,
+        image:"assets/ruba.jpeg",
+        description:"A simple bouquet of dairy milk chocolates",
+        category:["budget friendly", "chocolate bouquet", "birthday"]
+    },
 ];
 
 
