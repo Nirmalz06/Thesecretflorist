@@ -1,2 +1,0 @@
-﻿origin	https://github.com/thushyanth12/Thesecretflorist.git (fetch)
-origin	https://github.com/thushyanth12/Thesecretflorist.git (push)
