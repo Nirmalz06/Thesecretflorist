@@ -888,7 +888,7 @@ const products = [
         id:120,
         name:"hotwheels Bouquet",
         price:1000,
-        image:"assets/hotwheels/hotw1.webp",
+        image:"assets/hotw1.webp",
         description:"A grand bouquet of 100 artificial roses, crafted for everlasting beauty and unforgettable moments.",
         category:["hot wheels"]
     },
@@ -896,7 +896,7 @@ const products = [
         id:121,
         name:"hotwheels Bouquet",
         price:1000,
-        image:"assets/hotwheels/hotw2.webp",
+        image:"assets/hotw2.webp",
         description:"A grand bouquet of 100 artificial roses, crafted for everlasting beauty and unforgettable moments.",
         category:["hot wheels"]
     },
@@ -904,7 +904,7 @@ const products = [
         id:122,
         name:"hotwheels Bouquet",
         price:1000,
-        image:"assets/hotwheels/hotw3.webp",
+        image:"assets/hotw3.webp",
         description:"A grand bouquet of 100 artificial roses, crafted for everlasting beauty and unforgettable moments.",
         category:["hot wheels"]
     },
@@ -912,7 +912,7 @@ const products = [
         id:123,
         name:"hotwheels Bouquet",
         price:1000,
-        image:"assets/hotwheels/hotw4.webp",
+        image:"assets/hotw4.webp",
         description:"A grand bouquet of 100 artificial roses, crafted for everlasting beauty and unforgettable moments.",
         category:["hot wheels"]
     },
@@ -920,7 +920,7 @@ const products = [
         id:124,
         name:"hotwheels Bouquet",
         price:1000,
-        image:"assets/hotwheels/hot5.webp",
+        image:"assets/hot5.webp",
         description:"A grand bouquet of 100 artificial roses, crafted for everlasting beauty and unforgettable moments.",
         category:["hot wheels"]
     },
@@ -928,7 +928,7 @@ const products = [
         id:125,
         name:"hotwheels Bouquet",
         price:1000,
-        image:"assets/hotwheels/hot6.webp",
+        image:"assets/hot6.webp",
         description:"A grand bouquet of 100 artificial roses, crafted for everlasting beauty and unforgettable moments.",
         category:["hot wheels"]
     },
@@ -936,7 +936,7 @@ const products = [
         id:126,
         name:"hotwheels Bouquet",
         price:1000,
-        image:"assets/hotwheels/hot7.webp",
+        image:"assets/hot7.webp",
         description:"A grand bouquet of 100 artificial roses, crafted for everlasting beauty and unforgettable moments.",
         category:["hot wheels"] 
     },
@@ -944,7 +944,7 @@ const products = [
         id:127,
         name:"hotwheels bouquet",
         price:1000,
-        image:"assets/hotwheels/hot8.webp",
+        image:"assets/hot8.webp",
         description:"A grand bouquet of 100 artificial roses, crafted for everlasting beauty and unforgettable moments.",
         category:["hot wheels"]
     },
@@ -952,7 +952,7 @@ const products = [
         id:128,
         name:"hotwheels bouquet",
         price:500,
-        image:"assets/hotwheels/hot9.webp",
+        image:"assets/hot9.webp",
         description:"A grand bouquet of 100 artificial roses, crafted for everlasting beauty and unforgettable moments.",
         category:["hot wheels"]
     },
@@ -960,7 +960,7 @@ const products = [
         id:129,
         name:"hotwheels bouquet",
         price:500,
-        image:"assets/hotwheels/hot10.webp",
+        image:"assets/hot10.webp",
         description:"A grand bouquet of 100 artificial roses, crafted for everlasting beauty and unforgettable moments.",
         category:["hot wheels"]
     },
@@ -968,7 +968,7 @@ const products = [
         id:130,
         name:"hotwheels bouquet",
         price:500,
-        image:"assets/hotwheels/hot11.webp",
+        image:"assets/hot11.webp",
         description:"A grand bouquet of 100 artificial roses, crafted for everlasting beauty and unforgettable moments.",
         category:["hot wheels"]
     },
