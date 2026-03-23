@@ -1034,7 +1034,7 @@ const products = [
         price:500,
         image:"assets/50rs_with red rose.webp",
         description:"A bouquet made up of 50 rs notes with red roses",
-        category:["money bouquet"]
+        category:["money bouquet","Budget friendly"]
     },
     {
         id:139,
