@@ -1042,7 +1042,47 @@ const products = [
         price:1200,
         image:"assets/All rs whiteflower.webp",
         description:"A bouquet made up of all Indian currency notes with white flowers",
-        category:["money bouquet",]
+        category:["money bouquet"]
+    },
+    {
+        id:140,
+        name:"50 rs note bouquet",
+        price:500,
+        image:"assets/money1.webp",
+        description:"money gives you happyness",
+        category:["money bouquet"]
+    },
+    {
+        id:141,
+        name:"money flowerish",
+        price:1200,
+        image:"assets/money2.webp",
+        description:"love is blind",
+        category:["money bouquet"]
+    },
+    {
+        id:142,
+        name:"mega king flowerish",
+        price:1200,
+        image:"assets/money3.webp",
+        description:"always you are my favourite",
+        category:["money bouquet"]
+    },
+    {
+        id:143,
+        name:"blowish flower",
+        price:1200,
+        image:"assets/money4.webp",
+        description:"always want more flowers",
+        category:["money bouquet"]
+    },
+    {
+        id:144,
+        name:"stunning flower",
+        price:1200,
+        image:"assets/money5.webp",
+        description:"everyone is deponds on love ",
+        category:["money bouquet"]
     }
 ];
 
