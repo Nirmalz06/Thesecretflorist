@@ -447,7 +447,7 @@ const products = [
         price:1200,
         image:"assets/munch.webp",
         description:"Crunchy chocolates with blooms",
-        category:["chocolate-bouquet","polaroids-bouquet","customized"]   
+        category:["chocolate-bouquet","customized"]   
     },
     {
         id:63,
@@ -1066,7 +1066,7 @@ const products = [
         price:1200,
         image:"assets/money3.webp",
         description:"always you are my favourite",
-        category:["money bouquet"]
+        category:["money bouquet","chocolate bouquet"]
     },
     {
         id:143,
@@ -1082,7 +1082,7 @@ const products = [
         price:1200,
         image:"assets/money5.webp",
         description:"everyone is deponds on love ",
-        category:["money bouquet"]
+        category:["money bouquet","luxury"]
     },
     {
         id:145,
@@ -1154,7 +1154,7 @@ const products = [
         price:200,
         image:"assets/couple bouquet.webp",
         description:"a bouquet two bouquets hotwheels & kinderjoy for couples",
-        category:["hot wheels","chocolate bouquet"]
+        category:["hot wheels","chocolate bouquet","Budget Friendly"]
     },
     {
         id:154,
