@@ -1182,112 +1182,193 @@ const products = [
     },
     {
         id:157,
-        name:"polaroid bouquet",
+        name:"Premium Memory Gift Bouquet",
         price:2800,
         image:"assets/pola1.webp",
-        description:"a bouquet made up of family photos with flowers",
+        description:"A luxurious bouquet featuring photos, small gifts, and floral elements, making it a complete surprise package.",
         category:["polaroids-bouquet"]
     },
     {
         id:158,
-        name:"polaroid bouquet with photos",
+        name:"Chocolate Surprise Photo Bouquet",
         price:1500,
         image:"assets/pola2.webp",
-        description:"a bouquet made up of family photos with flowers",
+        description:"A unique black-themed bouquet combining chocolates and photo memories, perfect for gifting with a sweet twist.",
         category:["polaroids-bouquet"]
      },
      {
         id:159,
-        name:"polaroid bouquet with photos",
+        name:"Romantic Blush Memory Bouquet",
         price:2800,
         image:"assets/pola3.webp",
-        description:"a bouquet made up of  love photos with flowers",
+        description:"A soft pink bouquet decorated with photos and delicate flowers, ideal for romantic occasions.",
         category:["polaroids-bouquet"]
      },
      {
         id:160,
-        name:"polaroid bouquet with photos",
+        name:"Classic Black Photo Bouquet",
         price:500,
         image:"assets/pola4.webp",
-        description:"a bouquet made up of friends photos with flowers",
+        description:"A minimal yet stylish black wrap bouquet with neatly arranged memories for a modern look.",
         category:["polaroids-bouquet"]
      },
      {
         id:161,
-        name:"polaroid bouquet with photos",
+        name:"Festive Deluxe Memory Bouquet",
         price:3200,
         image:"assets/pola5.webp",
-        description:"a bouquet made up of friends photos with flowers",
+        description:"A rich and colorful bouquet packed with photos and decorative elements, perfect for big celebrations.",
         category:["polaroids-bouquet"]
      },
      {
         id:162,
-        name:"polaroid bouquet with photos",
+        name:"Elegant Red Ribbon Memory Bouquet",
         price:2200,
         image:"assets/pola6.webp",
-        description:"a bouquet made up of friends photos with flowers",
+        description:"A classy bouquet tied with a bold red ribbon, featuring carefully arranged polaroid memories.",
         category:["polaroids-bouquet"]
 
      },
      {
         id:163,
-        name:"polaroid bouquet with photos",
+        name:"Midnight Memory Bouquet",
         price:1800,
         image:"assets/pola7.webp",
-        description:"a bouquet made up of friends photos with flowers",
+        description:"A dark-themed elegant bouquet with beautifully arranged polaroid memories, perfect for a classy and unique gift.",
         category:["polaroids-bouquet"]
 
      },
      {
         id:164,
-        name:"polaroid bouquet with photos",
+        name:"Love Rose Photo Bouquet",
         price:2000,
         image:"assets/pola8.webp",
-        description:"a bouquet made up of friends photos with flowers",
+        description:"A romantic bouquet featuring red roses and captured memories, symbolizing love and deep emotions.",
         category:["polaroids-bouquet"]
 
      },
      {
         id:165,
-        name:"polaroid bouquet with photos",
+        name:"Minimal Elegance Bouquet",
         price:1500,
         image:"assets/pola9.webp",
-        description:"a bouquet made up of friends photos with flowers",
+        description:"A clean and modern bouquet with subtle floral design and neatly arranged photos for a sophisticated look.",
         category:["polaroids-bouquet"]
      },
     {
         id:166,
-        name:"polaroid bouquet with photos",
+        name:"Floral Celebration Bouquet",
         price:2500,
         image:"assets/pola10.webp",
-        description:"a bouquet made up of friends photos with flowers",
+        description:"A vibrant mix of colorful flowers and memories, perfect for birthdays and joyful occasions.",
         category:["polaroids-bouquet"]
     },
     {
         id:167,
-        name:"polaroid bouquet with photos",
+        name:"Blush Pink Memory Stand Bouquet",
         price:1500,
         image:"assets/pola11.webp",
-        description:"a bouquet made up of friends photos with flowers",
+        description:"A unique standing bouquet with soft pink flowers and photo frames, giving a premium decorative feel.",
         category:["polaroids-bouquet"]
     },
     {
         id:168,
-        name:"polaroid bouquet with photos",
+        name:"Sunset Golden Memory Bouquet",
         price:1800,
         image:"assets/pola12.webp",
-        description:"a bouquet made up of friends photos with flowers",
+        description:"Warm-toned bouquet inspired by sunset vibes, combining golden wrapping and cherished moments.",
         category:["polaroids-bouquet"]
 
     },
     {
         id:169,
-        name:"polaroid pink Delight",
+        name:"Cute Mini Memory Bouquet",
         price:1000,
         image:"assets/pola13.webp",
-        description:"a bouquet made up of friends photos with flowers",
+        description:"A compact and adorable bouquet with soft pink tones, perfect for small surprises and sweet gestures.",
         category:["polaroids-bouquet"]
 
+    },
+    {
+        id:170,
+        name:"Memory Lane Photo Bouquet",
+        price:1500,
+        image:"assets/nira1.webp",
+        description:"A beautifully wrapped bouquet filled with cherished memories, combining printed photos and elegant floral touches. Perfect for birthdays and surprises.",
+        category:["polaroids-bouquet"]
+    },
+    {
+        id:171,
+        name:"Royal black Deluxe Bouquet",
+        price:2000,
+        image:"assets/nira2.webp",
+        description:"A luxurious pink-themed bouquet with rich wrapping and elegant arrangement of photos and flowers.",
+        category:["polaroids-bouquet"]
+    },
+    {
+        id:172,
+        name:"Classic Cream Polaroid Bouquet",
+        price:2000,
+        image:"assets/nira3.webp",
+        description:"Soft cream wrapping with neatly arranged polaroid pictures, giving a premium and aesthetic look for special occasions.",
+        category:["polaroids-bouquet"]
+
+    },
+    {
+        id:173,
+        name:"Royal Red Memory Bouquet",
+        price:2000,
+        image:"assets/nira4.webp",
+        description:"A vibrant red-themed bouquet featuring a mix of photos and roses, symbolizing love and unforgettable moments.",
+        category:["polaroids-bouquet"]
+    },
+    {
+        id:174,
+        name:"Elegant Black Luxe Bouquet",
+        price:2000,
+        image:"assets/nira5.webp",
+        description:"A stylish black wrap bouquet with a luxurious feel, combining modern design and personalized photos.",
+        category:["polaroids-bouquet"]
+    },
+    {
+        id:175,
+        name:"Pastel Dream Photo Bouquet",
+        price:2000,
+        image:"assets/nira6.webp",
+        description:"Soft pastel tones with a gentle arrangement of photos, perfect for gifting your loved ones with a calm and elegant vibe.",
+        category:["polaroids-bouquet"]
+    },
+    {
+        id:176,
+        name:"Pink Fantasy Memory Bouquet",
+        price:2000,
+        image:"assets/nira7.webp",
+        description:"A vibrant pink bouquet filled with joyful memories and decorative wrapping, ideal for celebrations and friendships.",
+        category:["polaroids-bouquet"]
+    },
+    {
+        id:177,
+        name:"Sky Blue Love Bouquet",
+        price:2000,
+        image:"assets/nira8.webp",
+        description:"A refreshing blue-themed bouquet with a mix of photos and flowers, representing peace and beautiful memories.",
+        category:["polaroids-bouquet"]
+    },
+    {
+        id:178,
+        name:"Rustic Love Photo Bouquet",
+        price:2000,
+        image:"assets/nira9.webp",
+        description:"A natural brown wrap bouquet with roses and photos, giving a warm and heartfelt gifting experience.",
+        category:["polaroids-bouquet"]
+    },
+    {
+        id:179,
+        name:"Golden Moments Photo Bouquet",
+        price:2000,
+        image:"assets/nira10.webp",
+        description:"A premium bouquet wrapped in golden-toned paper, featuring your most precious memories along with elegant floral accents. Perfect for anniversaries and special celebrations.",
+        category:["polaroids-bouquet"]
     }
 ];
 
