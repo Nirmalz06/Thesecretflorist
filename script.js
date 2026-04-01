@@ -1183,7 +1183,7 @@ const products = [
     {
         id:157,
         name:"polaroid bouquet",
-        price:500,
+        price:2800,
         image:"assets/pola1.webp",
         description:"a bouquet made up of family photos with flowers",
         category:["polaroids-bouquet"]
@@ -1191,7 +1191,7 @@ const products = [
     {
         id:158,
         name:"polaroid bouquet with photos",
-        price:500,
+        price:1500,
         image:"assets/pola2.webp",
         description:"a bouquet made up of family photos with flowers",
         category:["polaroids-bouquet"]
@@ -1199,7 +1199,7 @@ const products = [
      {
         id:159,
         name:"polaroid bouquet with photos",
-        price:500,
+        price:2800,
         image:"assets/pola3.webp",
         description:"a bouquet made up of  love photos with flowers",
         category:["polaroids-bouquet"]
@@ -1215,7 +1215,7 @@ const products = [
      {
         id:161,
         name:"polaroid bouquet with photos",
-        price:1000,
+        price:3200,
         image:"assets/pola5.webp",
         description:"a bouquet made up of friends photos with flowers",
         category:["polaroids-bouquet"]
@@ -1223,7 +1223,7 @@ const products = [
      {
         id:162,
         name:"polaroid bouquet with photos",
-        price:500,
+        price:2200,
         image:"assets/pola6.webp",
         description:"a bouquet made up of friends photos with flowers",
         category:["polaroids-bouquet"]
@@ -1232,7 +1232,7 @@ const products = [
      {
         id:163,
         name:"polaroid bouquet with photos",
-        price:500,
+        price:1800,
         image:"assets/pola7.webp",
         description:"a bouquet made up of friends photos with flowers",
         category:["polaroids-bouquet"]
@@ -1241,7 +1241,7 @@ const products = [
      {
         id:164,
         name:"polaroid bouquet with photos",
-        price:500,
+        price:2000,
         image:"assets/pola8.webp",
         description:"a bouquet made up of friends photos with flowers",
         category:["polaroids-bouquet"]
@@ -1250,7 +1250,7 @@ const products = [
      {
         id:165,
         name:"polaroid bouquet with photos",
-        price:500,
+        price:1500,
         image:"assets/pola9.webp",
         description:"a bouquet made up of friends photos with flowers",
         category:["polaroids-bouquet"]
@@ -1258,7 +1258,7 @@ const products = [
     {
         id:166,
         name:"polaroid bouquet with photos",
-        price:1000,
+        price:2500,
         image:"assets/pola10.webp",
         description:"a bouquet made up of friends photos with flowers",
         category:["polaroids-bouquet"]
@@ -1266,7 +1266,7 @@ const products = [
     {
         id:167,
         name:"polaroid bouquet with photos",
-        price:1000,
+        price:1500,
         image:"assets/pola11.webp",
         description:"a bouquet made up of friends photos with flowers",
         category:["polaroids-bouquet"]
@@ -1274,7 +1274,7 @@ const products = [
     {
         id:168,
         name:"polaroid bouquet with photos",
-        price:1000,
+        price:1800,
         image:"assets/pola12.webp",
         description:"a bouquet made up of friends photos with flowers",
         category:["polaroids-bouquet"]
@@ -1282,8 +1282,8 @@ const products = [
     },
     {
         id:169,
-        name:"polaroid bouquet with photos",
-        price:500,
+        name:"polaroid pink Delight",
+        price:1000,
         image:"assets/pola13.webp",
         description:"a bouquet made up of friends photos with flowers",
         category:["polaroids-bouquet"]
