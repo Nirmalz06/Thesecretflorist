@@ -1373,7 +1373,7 @@ const products = [
     {
         id:180,
         name:"Royal Romance Perfume Bouquet",
-        price:2000,
+        price:4200,
         image:"assets/niran1.webp",
         description:"A luxurious arrangement of fresh blooms paired with a premium fragrance, wrapped in rich maroon tones. Designed for unforgettable romantic moments.",
         category:["perfume-bouquet"]
@@ -1382,23 +1382,15 @@ const products = [
 
         id:181,
         name:"premium nail polish bouquet",
-        price:2000,
+        price:3500,
         image:"assets/niran2.webp",
         description:"A chic bouquet combining elegant flowers with a selection of high-end nail polishes, wrapped in soft pink paper for a stylish and thoughtful gift.",
         category:["all-bouquet"]
     },
     {
-        id:182,
-        name:"permium collection of perfume bouquet",
-        price:2000,
-        image:"assets/niran3.webp",
-        description:"A luxurious bouquet featuring a curated collection of premium perfumes, elegantly wrapped in black and gold paper. Perfect for fragrance lovers and special occasions.",
-        category:["perfume-bouquet"]
-    },
-    {
         id:183,
-        name:"collection of chocolate box bouquet",
-        price:2000,
+        name:"Choco delight box bouquet",
+        price:5500,
         image:"assets/niran4.webp",
         description:"A decadent bouquet combining a selection of gourmet chocolates with fresh flowers, wrapped in rich red paper. A perfect gift for chocolate lovers and romantic celebrations.",
         category:["chocolate-bouquet"]
@@ -1406,7 +1398,7 @@ const products = [
     {
         id:184,
         name:"Memory Bloom premium Box",
-        price:2000,
+        price:3200,
         image:"assets/niran5.webp",
         description:"An elegant floral box filled with soft roses and personalized photo prints. A heartfelt combination of memories and beauty, perfect for special occasions.",
         category:["polaroids-bouquet"]
@@ -1414,7 +1406,7 @@ const products = [
     {
         id:185,
         name:"exclusive permium perfume bouquet",
-        price:2000,
+        price:25000,
         image:"assets/niran6.webp",
         description:"a luxurious perfume wrapped with  pink , white roses and a  black box, creating an elegant and unforgettable gift for fragrance lovers.",
         category:["perfume-bouquet"]
@@ -1422,7 +1414,7 @@ const products = [
     {
         id:186,
         name:"Blush Bloom Luxury Box- Bouquet",
-        price:2000,
+        price:25000,
         image:"assets/niran7.webp",
         description:"A luxurious blush pink bouquet arranged in an elegant box, featuring a mix of fresh flowers and personalized photos for a truly special gift.",
         category:["perfume-bouquet"]
@@ -1430,7 +1422,7 @@ const products = [
     {
         id:187,
         name:"Personalized Floral Dome Bouquet",
-        price:2000,
+        price:3800,
         image:"assets/niran8.webp",
         description:"A stunning transparent dome filled with soft pink roses and customized with your name. A timeless keepsake for someone truly special.",
         category:["perfume-bouquet"]
@@ -1438,7 +1430,7 @@ const products = [
     {
         id:188,
         name:"Glam Beauty Bouquet",
-        price:2000,
+        price:35000,
         image:"assets/niran9.webp",
         description:"A unique bouquet combining roses with beauty essentials. Perfect for makeup lovers who enjoy both style and surprise.",
         category:["perfume-bouquet"]
@@ -1446,7 +1438,7 @@ const products = [
     {
         id:189,
         name:"Sweetheart Pink Surprise Bouquet",
-        price:2000,
+        price:5500,
         image:"assets/niran10.webp",
         description:"A charming mix of pink roses and thoughtful add-ons, wrapped beautifully to express love, care, and affection.",
         category:["perfume-bouquet"]
@@ -1454,7 +1446,7 @@ const products = [
     {
         id:190,
         name:"Passion Gift Hamper Bouquet",
-        price:2000,
+        price:7200,
         image:"assets/niran11.webp",
         description:"Deep red roses paired with chocolates and gifts, crafted to express intense love and celebration in one perfect bundle.",
         category:["perfume-bouquet"]
@@ -1462,15 +1454,15 @@ const products = [
     {
         id:191,
         name:"Forever Moments Bouquet",
-        price:2000,
+        price:2500,
         image:"assets/niran12.webp",
         description:"A romantic arrangement of red and white roses paired with your precious photos. Crafted to celebrate love, memories, and meaningful connections.",
         category:["polaroids-bouquet"]
     },
     {
         id:192,
-        name:"Lavender Delight Chocolate Bouquet",
-        price:2000,
+        name:"Yardley Delight Chocolate Bouquet",
+        price:3200,
         image:"assets/niran13.webp",
         description:"This elegant bouquet features a soft lavender and pastel theme, giving it a calm and premium look. It is beautifully arranged with a combination of chocolates, decorative flowers, and gift items, wrapped in stylish printed paper with heart patterns.",
         category:["customized"],
@@ -1478,7 +1470,7 @@ const products = [
     {
         id:193,
         name:"Blush Beauty Surprise Bouq",
-        price:2000,
+        price:4200,
         image:"assets/niran14.webp",
         description:"This bouquet features a soft pink (blush) theme, giving it a romantic and elegant appearance. It is thoughtfully arranged with a mix of beauty products, chocolates, and cute gift items, all wrapped in stylish pastel paper with neat folds and a ribbon finish.",
         category:["customized"]
@@ -1486,7 +1478,7 @@ const products = [
     {
         id:194,
         name:"Golden Moments Premium Bouquet",
-        price:2000,
+        price:2500,
         image:"assets/niran15.webp",
         description:"This bouquet features a luxurious gold and blush pink theme, giving it a rich and personalized feel. It is uniquely designed with a combination of photos, chocolates, flowers, and customized elements, making it more than just a gift—it's a memory collection.",
         category:["customized"]
@@ -1494,7 +1486,7 @@ const products = [
     {
         id:195,
         name:"Classic Love Wrap Bouquet",
-        price:2000,
+        price:3800,
         image:"assets/niran17.webp",
         description:"A timeless arrangement of fresh roses wrapped in elegant red paper, symbolizing love, passion, and heartfelt emotions.",
         category:["perfume-bouquet"]
@@ -1561,7 +1553,7 @@ const products = [
         name:  "money bouquet with chocolate and roses",
         price: 2000,
         image: "assets/nirma1.webp",
-        description: "A unique bouquet combining the beauty of fresh roses, the sweetness of chocolates, and the practicality of money. This bouquet features a mix of red and pink roses, assorted chocolates, and neatly folded currency notes, all wrapped in elegant paper and tied with a satin ribbon for a perfect blend of love, indulgence, and thoughtfulness.",
+        description: "A unique bouquet combining the beauty of fresh roses, the sweetness of chocolates, and the practicality of money.",
         category: ["money-bouquet", "chocolate-bouquet", "customized"]
     },
     {
