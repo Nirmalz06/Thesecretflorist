@@ -1587,7 +1587,116 @@ const products = [
         image: "assets/nirma5.webp",
         description: "kit kat bouquet with a romantic twist.",
         category: ["chocolate-bouquet", "customized"]
+    },
+    {
+        id:208,
+        name:"Dark Chocolate & Rose Snack Bouquet"  ,
+        price: 2000,
+        image: "assets/t1.webp",
+        description:  "Black-wrapped bouquet with red roses, baby's breath, Mars, Snickers bars, and Nakhla products",
+        category: ["chocolate-bouquet"]
+    },
+    {
+        id:209,
+        name:"Chanel Nude Luxury Makeup Bouquet" ,
+        price: 2000,
+        image: "assets/t2.webp",
+        description: "Beige/nude toned bouquet with cream roses, Chanel products, makeup brushes, and gold-toned cosmetics",
+        category: ["perfume-bouquet", "luxury"]
+    },
+    {
+
+        id:210,
+        name:"Purple Milka Chocolate Candy Bouquet" ,
+        price: 2000,
+        image: "assets/t3.webp",
+        description: "Purple and pink wrapped bouquet featuring Milka, Milky Way chocolates and small heart balloons",
+        category: ["chocolate-bouquet"]
+    },
+    {
+        
+        id:211,
+        name:"Sweet Love Candy Bouquet with Balloons",
+        price: 2000,
+        image: "assets/t4.webp",
+        description: " Black-wrapped bouquet with red heart balloons, teddy bear, red roses, Hershey's, KitKat, Snickers, and Ferrero Rocher",
+        category: ["chocolate-bouquet"]
+    },
+    {
+        id:212,
+        name:"Grand Chocolate & Red Rose Bouquet" ,
+        price: 2000,
+        image: "assets/t5.webp",
+        description: " Massive arrangement of red roses with Ferrero Collection, KitKat, Twix, Snickers, Kinder Bueno in black wrap",
+        category: ["chocolate-bouquet"]
+    },
+    {
+
+        id:213,
+        name:"Gentleman's Luxury Fragrance Box" ,
+        price: 2000,
+        image: "assets/t6.webp",
+        description: "Elegant black hat box with Gucci Guilty & Burberry fragrances, Ferrero Rocher chocolates, and white flowers",
+        category: [" perfume-bouquet", "luxury"]
+    },
+    {
+        id:214,
+        name:"Lavender Luxe Cosmetics Bouquet",
+        price:2000,
+        image:"assets/t7.webp",
+        description:" Purple-wrapped bouquet with lavender flowers, blush roses, makeup brushes, lipsticks, and beauty products",
+        category: ["perfume-bouquet"]
+     },
+     {
+        id:215,
+        name:"Pink Glam Makeup Bouquet",
+        price:2000,
+        image:"assets/t8.webp",
+        description:" Pink roses with baby's breath and beauty brands (Refy, Huda Beauty, Fauxkiller) in a soft pink wrap",
+        category: ["perfume-bouquet"]
+     },
+     {
+        id:216,
+        name:"Purple Dream Gift Set",
+        price:2000,
+        image:"assets/t9.webp",
+        description:"Large purple teddy bear with heart-shaped gift boxes, snow globe, jewelry, chocolates, and a floral bouquet with mini bears",
+        category: ["perfume-bouquet","luxury"]
+     },
+     {
+        id:217,
+        name:"Dark Romance Beauty Bouquet" ,
+        price:2000,
+        image:"assets/t10.webp",
+        description:"Red roses with luxury skincare/makeup products (KIKO, Rituals) wrapped in dramatic black paper",
+        category: ["perfume-bouquet","luxury"]
+    },
+    {
+        id:218,
+        name: "Dior & Designer Luxury Beauty Bouquet" ,
+        price:2000,
+        image:"assets/t11.webp",
+        description:"Stunning bouquet of large bi-color pink-tipped roses filled with premium beauty products including Dior Backstage eyeshadow palette, Kayali perfume, Sol de Janeiro body wash, Maybelline lip gloss, Lindor chocolates and Huda Beauty items — all wrapped elegantly in soft pink with a cream satin bow, the ultimate luxury pampering gift",
+        category: ["perfume-bouquet","luxury"]
+    },
+    {
+
+        id:219,
+        name: "Bold Coca-Cola & Candy Bouquet" ,
+        price:2000,
+        image:"assets/t12.webp",
+        description:"Striking all-black wrapped bouquet packed with Coca-Cola glass bottles/cans, KitKat, Snickers, Mars bars and assorted chocolates, tied with a bold red ribbon — the ultimate gift for a snack and soda lover",
+        category: ["chocolate-bouquet","luxury"]
+    },
+    {
+        id:220,
+        name:  "Personalized Birthday Memory Bouquet",
+        price:2000,
+        image:"assets/t13.webp",
+        description:"Red and cream wrapped bouquet featuring personal photos, Kinder Joy eggs, KitKat, Cadbury Dairy Milk Silk, birthday message cards, cute bear stickers, baby's breath and red roses — a deeply heartfelt and personalized birthday gift",
+        category: ["chocolate-bouquet","luxury"]
     }
+    
 ];
 
 
