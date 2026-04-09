@@ -599,7 +599,7 @@ const products = [
         price:3500,
         image:"assets/anniversary.webp",
         description:"A luxurious heart of premium red roses crowned with elegance — crafted to celebrate timeless love.",
-        category:["luxury","anniversary","wedding"]
+        category:["luxury","wedding"]
     },
     {
         id:82,
@@ -1495,7 +1495,7 @@ const products = [
     {
         id:197,
         name: "Sporty Protein Bar Bouquet",
-        price: 2000,
+        price: 2800,
         image: "assets/img2.webp",
         description: "Protein bars with flowers in a sporty black and gold wrap.",
         category: ["birthday", "customized","chocolate-bouquet"]
@@ -1687,20 +1687,22 @@ const products = [
         price:2000,
         image:"assets/t13.webp",
         description: "Personalized birthday bouquet with photos, Kinder Joy, KitKat, and roses.",
+        category:["birthday","chocolate-bouquet","polaroids-bouquet"]
     },
 
     {
         id:221,
         name:  "Hot Wheels Money & KitKat Luxury Bouquet",
-        price:2000,
+        price:5500,
         image:"assets/a1.webp",
         description: "A large, premium dark navy tissue paper bouquet packed with approximately 10+ Hot Wheels cars including Fast & Furious editions, multiple KitKat chocolate bars, Crunch'n snacks, and Mexican 500-peso bills fanned throughout. Finished with a blue and silver satin bow — the ultimate gift for a car enthusiast who loves everything big and bold.",
         category: ["hot-wheels"]
     },
+    
     {
         id:222,
         name:  "Hot Wheels Daisy Bouquet",
-        price:2000,
+        price:2500,
         image:"assets/a2.webp",
         description: "A charming and casual kraft paper-wrapped bouquet combining fresh yellow daisies and white wildflowers with multiple Hot Wheels die-cast car packs on stems, including classic models like the '72 Stingray Convertible and DeLorean. Tied with a raffia ribbon and a glittery red heart charm — perfect for a car-loving kid or nostalgic adult.",
         category: ["hot-wheels"]
@@ -1708,7 +1710,7 @@ const products = [
     {
         id:223,
         name:   "Adventure Force Snack Attack Bouquet",
-        price:2000,
+        price:4500,
         image:"assets/a3.webp",
         description: "A vibrant red, blue, and white tissue paper bouquet featuring Maisto Adventure Force die-cast car collection packs along with a fun assortment of snacks including Cheetos, Ruffles, Sabritas, Snickers, and other treats. Tied with a shiny blue bow — a playful, fun-filled gift perfect for boys or snack-loving car fans.",
         category: ["hot-wheels"]
@@ -1719,7 +1721,7 @@ const products = [
         price:2000,
         image:"assets/patr1.webp",
         description: "A dramatic and deeply romantic bouquet of approximately 15–18 fresh deep red roses surrounded by white baby's breath, wrapped in structured black matte paper — finished with a bold red branded satin ribbon for a timeless, passionate look.",
-        category: ["birthday", "anniversary", "romantic"]
+        category: ["birthday"]
     },
     {
         id:225,
@@ -1727,7 +1729,7 @@ const products = [
         price:2000,
         image:"assets/patr2.webp",
         description: "A uniquely handcrafted bouquet made entirely of knitted/crochet chenille yarn flowers in soft lavender and white, featuring daisies, bell-shaped lilies, and lavender sprigs — wrapped in sheer white organza and lavender paper, tied with a blush pink ribbon bow.",
-        category: ["birthday", "anniversary", "romantic"]
+        category: ["birthday"]
     },
     {
         id:226,
@@ -1735,7 +1737,7 @@ const products = [
         price:2000,
         image:"assets/patr3.webp",
         description: "A full and generous peach and cream paper bouquet overflowing with approximately 16–18 Ferrero Rocher chocolates, accented with baby's breath and fresh green fern leaves — tied with a soft pink satin bow and a gift tag.",
-        category: ["birthday", "anniversary", "romantic","chocolate-bouquet"]
+        category: ["birthday", "chocolate-bouquet"]
     },
     {
         id:227,
@@ -1743,7 +1745,7 @@ const products = [
         price:2000,
         image:"assets/patr4.webp",
         description: "A petite, candle-lit celebration bouquet in sage green and kraft wrapping, holding 5–6 Ferrero Rocher chocolates topped with a glittery gold acrylic Happy Birthday topper with a heart — tied with a delicate white lace bow ribbon.",
-        category: ["birthday", "anniversary", "romantic","chocolate-bouquet"]
+        category: ["birthday", "chocolate-bouquet"]
     },
     {
         id:228,
@@ -1832,6 +1834,14 @@ const products = [
         image:"assets/patr15.webp",
         description: "A delightful bouquet wrapped in soft pink paper, featuring a charming mix of fresh pink roses and Cadbury chocolates — finished with a sweet pink satin ribbon for a playful and romantic gift.",
         category: ["chocolate-bouquet"]
+    },
+    {
+        id:239,
+        name:  "Whispers of Love",
+        price:5800,
+        image:"assets/masca.webp",
+        description: "A gentle blend of colors blooming in perfect balance",
+        category: ["wedding"]
     }
 ];
 
