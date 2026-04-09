@@ -1688,9 +1688,154 @@ const products = [
         image:"assets/t13.webp",
         description: "Personalized birthday bouquet with photos, Kinder Joy, KitKat, and roses.",
     },
+
+    {
+        id:221,
+        name:  "Hot Wheels Money & KitKat Luxury Bouquet",
+        price:2000,
+        image:"assets/a1.webp",
+        description: "A large, premium dark navy tissue paper bouquet packed with approximately 10+ Hot Wheels cars including Fast & Furious editions, multiple KitKat chocolate bars, Crunch'n snacks, and Mexican 500-peso bills fanned throughout. Finished with a blue and silver satin bow — the ultimate gift for a car enthusiast who loves everything big and bold.",
+        category: ["hot-wheels"]
+    },
+    {
+        id:222,
+        name:  "Hot Wheels Daisy Bouquet",
+        price:2000,
+        image:"assets/a2.webp",
+        description: "A charming and casual kraft paper-wrapped bouquet combining fresh yellow daisies and white wildflowers with multiple Hot Wheels die-cast car packs on stems, including classic models like the '72 Stingray Convertible and DeLorean. Tied with a raffia ribbon and a glittery red heart charm — perfect for a car-loving kid or nostalgic adult.",
+        category: ["hot-wheels"]
+    },
+    {
+        id:223,
+        name:   "Adventure Force Snack Attack Bouquet",
+        price:2000,
+        image:"assets/a3.webp",
+        description: "A vibrant red, blue, and white tissue paper bouquet featuring Maisto Adventure Force die-cast car collection packs along with a fun assortment of snacks including Cheetos, Ruffles, Sabritas, Snickers, and other treats. Tied with a shiny blue bow — a playful, fun-filled gift perfect for boys or snack-loving car fans.",
+        category: ["hot-wheels"]
+    },
+    {
+        id:224,
+        name:   "Red Rose Noir Bouquet",
+        price:2000,
+        image:"assets/patr1.webp",
+        description: "A dramatic and deeply romantic bouquet of approximately 15–18 fresh deep red roses surrounded by white baby's breath, wrapped in structured black matte paper — finished with a bold red branded satin ribbon for a timeless, passionate look.",
+        category: ["birthday", "anniversary", "romantic"]
+    },
+    {
+        id:225,
+        name: "Lavender Crochet Dream Bouquet",
+        price:2000,
+        image:"assets/patr2.webp",
+        description: "A uniquely handcrafted bouquet made entirely of knitted/crochet chenille yarn flowers in soft lavender and white, featuring daisies, bell-shaped lilies, and lavender sprigs — wrapped in sheer white organza and lavender paper, tied with a blush pink ribbon bow.",
+        category: ["birthday", "anniversary", "romantic"]
+    },
+    {
+        id:226,
+        name:  "Ferrero Rocher Peach Bloom Bouquet",
+        price:2000,
+        image:"assets/patr3.webp",
+        description: "A full and generous peach and cream paper bouquet overflowing with approximately 16–18 Ferrero Rocher chocolates, accented with baby's breath and fresh green fern leaves — tied with a soft pink satin bow and a gift tag.",
+        category: ["birthday", "anniversary", "romantic","chocolate-bouquet"]
+    },
+    {
+        id:227,
+        name:  "Happy Birthday Ferrero Mini Bouquet",
+        price:2000,
+        image:"assets/patr4.webp",
+        description: "A petite, candle-lit celebration bouquet in sage green and kraft wrapping, holding 5–6 Ferrero Rocher chocolates topped with a glittery gold acrylic Happy Birthday topper with a heart — tied with a delicate white lace bow ribbon.",
+        category: ["birthday", "anniversary", "romantic","chocolate-bouquet"]
+    },
+    {
+        id:228,
+        name:   "Make Over Cosmetics Bouquet",
+        price:2000,
+        image:"assets/patr5.webp",
+        description: "A chic black and natural linen-wrapped bouquet showcasing a full Make Over cosmetics collection including lipstick, lip gloss, foundation, and setting spray, beautifully interspersed with peach and pink artificial daisy flowers and a silver heart balloon — tied with a cream satin ribbon.",
+        category: ["perfume-bouquet", "luxury"]
+    },
+    {
+        id:229,
+        name:   "Black & Gold Elegance Bouquet",
+        price:2000,
+        image:"assets/patr6.webp",
+        description: "A striking, tall black matte paper fan-shaped bouquet with gold trim, featuring soft blush pink silk roses and a row of Ferrero Rocher chocolates at the center — finished with a refined champagne gold satin bow, perfect for upscale gifting.",
+        category: ["chocolate-bouquet", "perfume-bouquet", "luxury"]
+    },
+    {
+        id:230,
+        name:   "Teddy Bear Rose & Ferrero Bouquet",
+        image: "assets/patr7.webp",
+        description: "A romantic pink and gold kraft paper bouquet featuring dusty pink silk roses, a cluster of Ferrero Rocher chocolates, and a sweet white plush teddy bear sitting at the center — wrapped with a Just for You printed ribbon in soft pink tones.",
+        category: ["chocolate-bouquet"]
+    },
+    {
+        id:231,
+        name:    "Just For You Ferrero Noir Bouquet",
+        price:2000,
+        image:"assets/patr8.webp",
+        description: "A luxurious bouquet wrapped in elegant black matte paper, featuring a stunning arrangement of blush pink silk roses and a central Gucci Bloom perfume bottle — finished with a sleek black satin ribbon for a high-end, sophisticated gift.",
+        category: ["chocolate-bouquet", "luxury"]
+    },
+    {
+        id:232,
+        name: "KitKat Black Gold Bouquet",
+        price:2000,
+        image:"assets/patr9.webp",
+        description: "A bold and indulgent bouquet wrapped in black matte paper with gold accents, featuring a generous arrangement of KitKat chocolates interspersed with blush pink silk roses — tied with a luxurious gold satin ribbon for a decadent gift.",
+        category:["chocolate-bouquet"]
+    },
+    {
+        id:233,
+        name: "Kinder Rose Bouquet",
+        price:2000,
+        image:"assets/patr10.webp",
+        description: "A charming bouquet wrapped in soft pink kraft paper, featuring a delightful mix of fresh pink roses and Kinder chocolates — finished with a sweet pink satin ribbon for a playful and romantic gift.",
+        category: ["chocolate-bouquet"]
+
+    },
+    {
+        id:234,
+        name: "Nude Luxe Beauty & Cake Pop Bouquet",
+        price:2000,
+        image:"assets/patr11.webp",
+        description: "A sophisticated bouquet wrapped in nude-toned paper, featuring a blend of luxury beauty products and cake pops, accented with blush pink silk roses and tied with a soft pink satin ribbon for an elegant and indulgent gift.",
+        category: ["polaroids-bouquet", "luxury"]
+    } ,
+    {
+        id:235,
+        name:"Pink Glam Beauty Bouquet",
+        price:2000,
+        image:"assets/patr12.webp",
+        description: "A glamorous bouquet wrapped in soft pink paper, featuring a curated selection of luxury beauty products and accented with blush pink silk roses — finished with a delicate pink satin ribbon for a chic and indulgent gift.",
+        category: ["perfume-bouquet", "luxury"]
+    },
+    {
+        id:236,
+        name: "GRWM Twin Beauty Bouquet",
+        price:2000,
+        image:"assets/b13.webp", 
+        description: "A decadent bouquet wrapped in elegant black matte paper, featuring a mix of gourmet chocolates and luxury beauty products, accented with blush pink silk roses — tied with a sleek black satin ribbon for a sophisticated and indulgent gift.",
+        category: ["perfume-bouquet", "luxury"]
+    },
+    {
+       id:237,
+       name: "Huda Beauty Gucci Luxe Bouquet",
+       price:2000,
+       image:"assets/patr14.webp",
+       description: "A high-end bouquet wrapped in luxurious black matte paper, featuring a curated selection of Huda Beauty and Gucci products, accented with blush pink silk roses — finished with a sleek black satin ribbon for an ultra-glamorous gift.",
+       category: ["perfume-bouquet", "luxury"]
+    },
+    {
+        id:238,
+        name:  "Cadbury Rose Bouquet",
+        price:2000,
+        image:"assets/patr15.webp",
+        description: "A delightful bouquet wrapped in soft pink paper, featuring a charming mix of fresh pink roses and Cadbury chocolates — finished with a sweet pink satin ribbon for a playful and romantic gift.",
+        category: ["chocolate-bouquet"]
+    }
 ];
 
-// Cart is now an array of { product, quantity } objects
+// Cart is noidw an array of { product, quantity } objects
 let cart = [];
 let currentCategory = 'all';
 let searchTerm = '';
