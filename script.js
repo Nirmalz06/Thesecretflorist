@@ -2364,7 +2364,13 @@ function renderProducts() {
         return;
     }
 
-    productGrid.innerHTML = filteredProducts.map((product, index) => `
+    productGrid.innerHTML = filteredProducts.map((product, index) => {
+        const isPerfume = normalizeCategory(product).includes('perfume-bouquet');
+        const priceHTML = isPerfume ? '' : `<div class="product-price">INR ${product.price.toLocaleString('en-IN')}</div>`;
+        const actionBtn = isPerfume
+            ? `<button class="add-btn customize-wa-btn ripple" data-id="${product.id}" data-name="${product.name.replace(/"/g, '&quot;')}" onclick="openPerfumeWhatsApp('${product.name.replace(/'/g, "\\'")}')"><i class="fa-brands fa-whatsapp"></i> Customize Bouquet</button>`
+            : `<button class="add-btn ripple" data-id="${product.id}"><i class="fas fa-cart-plus"></i> Add to Cart</button>`;
+        return `
         <div class="product-card reveal" style="--card-index: ${index}">
             <button class="wishlist-btn ${wishlist.has(product.id) ? 'active' : ''}" data-id="${product.id}">
                 <i class="fas fa-heart"></i>
@@ -2375,13 +2381,11 @@ function renderProducts() {
                     <h3 class="product-title">${product.name}</h3>
                 </div>
                 <p class="product-desc">${product.description}</p>
-                <div class="product-price">INR ${product.price.toLocaleString('en-IN')}</div>
-                <button class="add-btn ripple" data-id="${product.id}">
-                    <i class="fas fa-cart-plus"></i> Add to Cart
-                </button>
+                ${priceHTML}
+                ${actionBtn}
             </div>
-        </div>
-    `).join('');
+        </div>`;
+    }).join('');
 
     setupScrollAnimations();
 }
@@ -2400,12 +2404,37 @@ function showProductModal(product) {
     const modalProductName = document.getElementById('modal-product-name');
     const modalProductDescription = document.getElementById('modal-product-description');
     const modalProductPrice = document.getElementById('modal-product-price');
+    const modalQtySelector = document.querySelector('.modal-qty-selector');
+    const modalAddBtn = document.querySelector('.modal-add-btn');
+
+    const isPerfume = normalizeCategory(product).includes('perfume-bouquet');
 
     modalProductImage.src = product.image;
     modalProductImage.alt = product.name;
     modalProductName.textContent = product.name;
     modalProductDescription.textContent = product.description;
-    modalProductPrice.textContent = `INR ${product.price.toLocaleString('en-IN')}`;
+
+    if (isPerfume) {
+        // Hide price and quantity selector for perfume bouquets
+        modalProductPrice.style.display = 'none';
+        if (modalQtySelector) modalQtySelector.style.display = 'none';
+        // Swap button to WhatsApp customize
+        if (modalAddBtn) {
+            modalAddBtn.innerHTML = '<i class="fa-brands fa-whatsapp"></i> Customize Bouquet';
+            modalAddBtn.className = 'modal-add-btn ripple customize-wa-modal-btn';
+            modalAddBtn.onclick = () => { openPerfumeWhatsApp(product.name); closeProductModal(); };
+        }
+    } else {
+        // Normal product — show price, qty, add-to-cart
+        modalProductPrice.style.display = '';
+        modalProductPrice.textContent = `INR ${product.price.toLocaleString('en-IN')}`;
+        if (modalQtySelector) modalQtySelector.style.display = '';
+        if (modalAddBtn) {
+            modalAddBtn.innerHTML = '<i class="fas fa-cart-plus"></i> Add to Cart';
+            modalAddBtn.className = 'modal-add-btn ripple';
+            modalAddBtn.onclick = confirmAddToCart;
+        }
+    }
 
     // Update quantity display
     const qtyDisplay = document.getElementById('modal-qty-value');
@@ -2603,6 +2632,14 @@ function checkout() {
             }
         }, 1200);
     }, 1200);
+}
+
+// ================== PERFUME BOUQUET WHATSAPP ==================
+function openPerfumeWhatsApp(productName) {
+    const phoneNumber = "919994588076";
+    const message = `Hey The Secret Florist! 🌸 I need a customized perfume bouquet like the *"${productName}"* that I saw on your website. Could you please provide more details and pricing? Thank you!`;
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    window.open(whatsappUrl, '_blank');
 }
 
 // Close cart when clicking outside
