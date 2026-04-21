@@ -20,6 +20,7 @@
     --radius-xl: 32px;
     --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
     --ease-out-back: cubic-bezier(0.34, 1.56, 0.64, 1);
+    --page-px: 5%;  /* Unified section side-padding for consistent alignment */
 }
 
 * {
@@ -256,7 +257,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 5%;
+    padding: 0 var(--page-px);
     background: transparent;
     backdrop-filter: blur(0px);
     position: fixed;
@@ -288,10 +289,11 @@ img {
 }
 
 .logo img {
-    height: 450px;
-    width: 300px;
+    height: 60px;
+    width: auto;
+    max-width: 200px;
     position: relative;
-    right: 35px;
+    right: 10px;
     object-fit: contain;
     transition: transform 0.4s var(--ease-out-back);
 }
@@ -427,7 +429,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 5%;
+    padding: 0 var(--page-px);
     padding-top: 80px;
     overflow: hidden;
     position: relative;
@@ -621,7 +623,7 @@ img {
 
 /* ================== SHOP SECTION ================== */
 .shop-section {
-    padding: 4rem 5% 5rem;
+    padding: 4rem var(--page-px) 5rem;
     background-color: var(--secondary-color);
     position: relative;
 }
@@ -732,11 +734,10 @@ img {
     flex-wrap: nowrap;
     overflow-x: auto;
     overflow-y: hidden;
-    padding: 0.5rem 5% 1.5rem 0.5rem; /* Added 5% right padding for breathing room at the end */
+    padding: 0.5rem 0 1.5rem 0; /* Aligned with section padding — parent .shop-section already has side padding */
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
     -ms-overflow-style: none;
-    /* Removed mask-image as it was making the last items invisible */
 }
 
 .category-filter::-webkit-scrollbar {
@@ -1198,7 +1199,7 @@ img {
 }
 
 .customizer-section {
-    padding: 5rem 5%;
+    padding: 5rem var(--page-px);
     position: relative;
 }
 
@@ -1268,7 +1269,7 @@ img {
 .site-footer {
     background: linear-gradient(180deg, #2c2428, #1a1517);
     color: rgba(255, 255, 255, 0.7);
-    padding: 4rem 5% 0;
+    padding: 4rem var(--page-px) 0;
     margin-top: 2rem;
     position: relative;
     overflow: hidden;
@@ -1622,6 +1623,10 @@ img {
 
 /* ---- TABLET LANDSCAPE (1024px) ---- */
 @media (max-width: 1024px) {
+    :root {
+        --page-px: 5%;
+    }
+
     .hero h1 {
         font-size: 3.2rem;
     }
@@ -1636,8 +1641,8 @@ img {
     }
 
     .logo img {
-        width: 240px;
-        right: 20px;
+        max-width: 180px;
+        right: 10px;
     }
 
     .logo .brand-logo {
@@ -1661,9 +1666,12 @@ img {
 
 /* ---- TABLET PORTRAIT / SMALL TABLETS (768px) ---- */
 @media (max-width: 768px) {
+    :root {
+        --page-px: 4%;
+    }
+
     .navbar {
         height: 65px;
-        padding: 0 4%;
     }
 
     .section-title {
@@ -1721,15 +1729,16 @@ img {
     }
 
     .logo img {
-        width: 180px;
-        right: 15px;
+        max-width: 150px;
+        right: 8px;
         height: auto;
     }
 
     .hero {
         flex-direction: column-reverse;
         height: auto;
-        padding: 90px 6% 2.5rem;
+        padding-top: 90px;
+        padding-bottom: 2.5rem;
         text-align: center;
     }
 
@@ -1781,9 +1790,9 @@ img {
         justify-content: center;
     }
 
-    /* Shop section - more spacious */
+    /* Shop section */
     .shop-section {
-        padding: 3rem 4% 4rem;
+        padding: 3rem var(--page-px) 4rem;
     }
 
     .section-subtitle {
@@ -1796,13 +1805,11 @@ img {
         padding: 0.7rem 1.2rem;
     }
 
-    /* Category filter with fade hint for scrollability */
+    /* Category filter — no extra side padding, parent already provides it */
     .category-filter {
         gap: 0.5rem;
         margin-bottom: 2rem;
-        padding: 0.5rem 4% 1rem;
-        -webkit-mask-image: linear-gradient(to right, black 90%, transparent 100%);
-        mask-image: linear-gradient(to right, black 90%, transparent 100%);
+        padding: 0.5rem 0 1rem;
     }
 
     .category-btn {
@@ -1823,9 +1830,9 @@ img {
         margin-bottom: 0.8rem;
     }
 
-    /* Customizer - roomier on mobile */
+    /* Customizer */
     .customizer-section {
-        padding: 3.5rem 5%;
+        padding: 3.5rem var(--page-px);
     }
 
     .customizer-form {
@@ -1845,9 +1852,9 @@ img {
         width: 100%;
     }
 
-    /* Footer - spacious on mobile */
+    /* Footer */
     .site-footer {
-        padding: 3rem 6% 0;
+        padding: 3rem var(--page-px) 0;
     }
 
     .cart-sidebar {
@@ -1869,9 +1876,12 @@ img {
 
 /* ---- LARGE PHONES (max-width: 480px) ---- */
 @media (max-width: 480px) {
+    :root {
+        --page-px: 3%;
+    }
+
     .navbar {
         height: 60px;
-        padding: 0 3%;
     }
 
     .logo .brand-logo {
@@ -1880,12 +1890,13 @@ img {
     }
 
     .logo img {
-        width: 160px;
-        right: 10px;
+        max-width: 130px;
+        right: 5px;
     }
 
     .hero {
-        padding: 80px 5% 2rem;
+        padding-top: 80px;
+        padding-bottom: 2rem;
     }
 
     .hero h1 {
@@ -1903,7 +1914,6 @@ img {
 
     .section-title {
         font-size: 1.8rem;
-        white-space: nowrap;
     }
 
     .section-subtitle {
@@ -1911,12 +1921,12 @@ img {
     }
 
     .shop-section {
-        padding: 2.5rem 3% 3.5rem;
+        padding: 2.5rem var(--page-px) 3.5rem;
     }
 
     .category-filter {
         gap: 0.4rem;
-        padding: 0.5rem 3% 1rem;
+        padding: 0.5rem 0 1rem;
     }
 
     .category-btn {
@@ -1960,7 +1970,7 @@ img {
 
     /* Customizer */
     .customizer-section {
-        padding: 2.5rem 4%;
+        padding: 2.5rem var(--page-px);
     }
 
     .customizer-form {
@@ -1969,7 +1979,7 @@ img {
 
     /* Footer */
     .site-footer {
-        padding: 2.5rem 5% 0;
+        padding: 2.5rem var(--page-px) 0;
     }
 
     .footer-content {
@@ -2048,6 +2058,10 @@ img {
 
 /* ---- SMALL PHONES (max-width: 380px) ---- */
 @media (max-width: 380px) {
+    :root {
+        --page-px: 3%;
+    }
+
     .hero h1 {
         font-size: 1.8rem;
     }
@@ -2071,7 +2085,7 @@ img {
     }
 
     .logo img {
-        width: 140px;
+        max-width: 110px;
     }
 
     .logo .brand-logo {
