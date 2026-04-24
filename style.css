@@ -269,6 +269,14 @@ img {
     transition: all 0.5s var(--ease-out-expo);
 }
 
+/* ---- Desktop: taller navbar + tighter left edge so logo hugs left ---- */
+@media (min-width: 1025px) {
+    .navbar {
+        height: 140px;
+        padding: 0 3% 0 1%;
+    }
+}
+
 .navbar.scrolled {
     background: var(--navbar-bg);
     backdrop-filter: blur(20px) saturate(180%);
@@ -277,9 +285,10 @@ img {
 }
 
 .logo .brand-logo {
-    height: 70px;
+    height: 52px;
     width: auto;
     flex-shrink: 0;
+    object-fit: contain;
 }
 
 .logo {
@@ -288,41 +297,38 @@ img {
     height: 100%;
     overflow: visible;
     flex-shrink: 0;
-    /* Limit how much width logo can eat so nav links always have room */
     max-width: 55%;
-    margin-left: -18px;
+    gap: 4px;
 }
 
 /* logo1.png — the cursive text logo (2nd img inside .logo) */
 .logo img:nth-child(2) {
-    /* Scale relative to navbar height. overflow:visible lets it appear larger */
-    max-height: 260px;
+    height: 68px;
     width: auto;
-    max-width: 280px;
-    position: relative;
+    max-width: 240px;
     object-fit: contain;
     transition: transform 0.4s var(--ease-out-back);
     flex-shrink: 1;
-    /* ~0.5cm gap between brand icon and text logo */
-    margin-left: 8px;
 }
 
 .logo img:nth-child(2):hover {
     transform: scale(1.05);
 }
 
-/* ---- Desktop: bigger logo ---- */
+/* ---- Desktop: 2x bigger logo, pushed to the left ---- */
 @media (min-width: 1025px) {
     .logo {
-        max-width: 50%;
-    }
-    .logo img:nth-child(2) {
-        max-height: 320px;
-        max-width: 340px;
-        margin-left: 8px;
+        max-width: 52%;
+        gap: 12px;
+        overflow: visible;
+        align-items: center;
     }
     .logo .brand-logo {
-        height: 80px;
+        height: 130px;
+    }
+    .logo img:nth-child(2) {
+        height: 200px;
+        max-width: 440px;
     }
 }
 
@@ -457,6 +463,12 @@ img {
     padding-top: 80px;
     overflow: hidden;
     position: relative;
+}
+
+@media (min-width: 1025px) {
+    .hero {
+        padding-top: 140px;
+    }
 }
 
 .hero-content {
